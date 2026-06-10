@@ -113,6 +113,6 @@ A role where I can build real software end-to-end — **full-stack product devel
 ## 🤝 Let's Connect
 
 - 📧 **Email:** herzalla001@gmail.com
-- 💼 **LinkedIn:** [LinkedIn]()
+- 💼 **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/aseel-herzallah-290015319/)
 - 🌐 **Website:** [Portfolio]()
 - 🐙 **GitHub:** [AseelHerzallah1](https://github.com/AseelHerzallah1)
