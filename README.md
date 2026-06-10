@@ -1,14 +1,14 @@
 # Hi 👋, I'm Aseel Herzallah
 
 - 🎓 B.Sc. in Computer Science — Ben-Gurion University
-- 💻 Full-Stack & Systems Developer | MERN, OS Internals & Security
+- 💻 Full-Stack & AI Software Developer | MERN, GenAI & Systems
 - 🌍 Based in Israel
 
-I build production-style full-stack applications and low-level systems projects. My strongest work is a **Twitter clone** with real auth, feeds, DMs, and an in-app AI assistant — deployed live on Vercel and Render.
+I build production-style **full-stack applications** and **AI-powered software** — from React frontends and REST APIs to LLM-integrated features and automation pipelines. My strongest work is a **Twitter clone** with real auth, feeds, DMs, and an in-app AI assistant, deployed live on Vercel and Render.
 
-I also work close to the machine through **xv6 kernel extensions**, **network security labs**, and **SPL coursework** in C, C++, and Java.
+I also have a solid systems foundation through **xv6 kernel coursework**, **SPL projects**, and academic labs in C, C++, and Java.
 
-Currently looking for my first full-time role in **full-stack development**, **systems software**, or **security engineering**.
+Currently looking for my **first full-time junior role** in **full-stack development** or **AI software engineering**.
 
 ---
 
@@ -42,7 +42,7 @@ Three independent kernel-level extensions on the **xv6-riscv** teaching OS:
 
 ---
 
-### 🔐 Memory Game RAT — Network Security Lab
+### 🔐 Memory Game RAT — Network Security Course Lab
 
 Educational Remote Access Trojan disguised as a harmless **Pygame memory card game**.
 
@@ -91,8 +91,8 @@ Three systems-focused projects in **Java** and **C++**:
 **Backend & Infrastructure**
 - Node.js, Express, MongoDB / Mongoose
 - REST APIs, JWT auth, bcrypt, middleware
-- TCP/IP, socket programming, encrypted C2 channels
-- Cloudinary media upload, OpenAI API integration
+- TCP/IP, socket programming, client–server architecture
+- Cloudinary media upload, OpenAI API integration, LangChain, Groq
 - Production deploy: Vercel, Render
 - Java multithreading, thread-per-client server models
 
@@ -106,7 +106,7 @@ Three systems-focused projects in **Java** and **C++**:
 
 ## 🎯 What I'm Looking For
 
-A role where I can build real software end-to-end — **full-stack product development**, **systems programming**, or **security-focused engineering**. Ideally somewhere that values both shipping polished applications and understanding how things work under the hood.
+My **first full-time junior role** building real software — ideally **full-stack web development** or **AI-powered applications**. I'm especially interested in teams shipping products with modern React/Node stacks, LLM integrations, and polished user experiences.
 
 ---
 
