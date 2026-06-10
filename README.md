@@ -113,5 +113,6 @@ A role where I can build real software end-to-end — **full-stack product devel
 ## 🤝 Let's Connect
 
 - 📧 **Email:** herzalla001@gmail.com
+- 💼 **LinkedIn:** [LinkedIn]()
+- 🌐 **Website:** [Portfolio]()
 - 🐙 **GitHub:** [AseelHerzallah1](https://github.com/AseelHerzallah1)
-- 🐦 **Live project:** [twitter-clone-mu-gilt.vercel.app](https://twitter-clone-mu-gilt.vercel.app)
