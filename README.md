@@ -1,118 +1,145 @@
 # Hi 👋, I'm Aseel Herzallah
 
-- 🎓 B.Sc. in Computer Science — Ben-Gurion University
-- 💻 Full-Stack & AI Software Developer | MERN, GenAI & Systems
-- 🌍 Based in Israel
+**Junior Software Engineer | Backend Development & AI Systems**
 
-I build production-style **full-stack applications** and **AI-powered software** — from React frontends and REST APIs to LLM-integrated features and automation pipelines. My strongest work is a **Twitter clone** with real auth, feeds, DMs, and an in-app AI assistant, deployed live on Vercel and Render.
+B.Sc. in Computer Science from Ben-Gurion University, with a strong interest in **backend development, AI systems, and software engineering**.
 
-I also have a solid systems foundation through **xv6 kernel coursework**, **SPL projects**, and academic labs in C, C++, and Java.
+I enjoy building systems that go beyond the basic happy path — working with APIs, LLM integrations, asynchronous workflows, databases, caching, observability, and reliability. I also have a strong computer science foundation in operating systems, concurrency, networking, and systems programming.
 
-Currently looking for my **first full-time junior role** in **full-stack development** or **AI software engineering**.
+Currently looking for my **first full-time software engineering role**, especially in **Backend Development, AI Engineering, or Software Engineering**.
 
 ---
 
-## 🔥 Featured Projects
+## 🚀 Featured Projects
 
-### 🐦 Twitter Clone — Full-Stack Social Platform
+### 🧠 [LLM Gateway](https://github.com/AseelHerzallah1/llm-gateway)
 
-Classic Twitter rebuilt from scratch — the timeline, reposts, bookmarks, DMs, and an in-app AI assistant called **Nest**.
+A **production-oriented, OpenAI-compatible LLM API gateway** built as a backend infrastructure project rather than a chat application.
 
-- Full MERN stack with JWT auth (`httpOnly` cookies), bcrypt, and protected routes
-- For You / Following feeds, infinite scroll, reposts, quote tweets, likes, comments, bookmarks, pin
-- Real-time DMs, notifications, live search, trending hashtags, suggested users
-- Profile editing — bio, website, birthday, cover/avatar crop via Cloudinary
-- **Nest AI** — in-app OpenAI assistant for search, trends, and thread summaries
-- Mobile-first UI, light/dark/system theme, optimistic cache updates (TanStack Query)
-- Split production deploy: **Vercel** (frontend) + **Render** (API)
+* Unified API across **OpenAI, Anthropic, and Groq**
+* Model-based routing, retries, and cross-provider fallback
+* Real-time **SSE streaming** with client-disconnect cancellation
+* Persistent **semantic caching** using embeddings and cosine similarity
+* PostgreSQL-backed latency, token usage, and cost tracking
+* Metrics including **p50 / p95 / p99 latency**
+* bcrypt-based API key authentication
+* Optional multilingual **PII redaction**
+* Automated unit, HTTP, and PostgreSQL integration tests
+* Benchmarked performance and documented architectural trade-offs
 
-🔗 **Live demo:** [twitter-clone-mu-gilt.vercel.app](https://twitter-clone-mu-gilt.vercel.app) · **Repo:** [twitter-clone](https://github.com/AseelHerzallah1/twitter-clone)
-
----
-
-### ⚙️ xv6 Kernel Enhancements — Operating Systems (BGU)
-
-Three independent kernel-level extensions on the **xv6-riscv** teaching OS:
-
-- **System calls:** `memsize`, `forkn`, `waitall`, exit messages — full user→kernel data transfer and argument validation
-- **Shared memory:** Cross-process shared mappings via page-table manipulation and reference counting; multi-process logging with atomic operations
-- **Synchronization:** Peterson locks, tournament tree (up to 16 processes), sleep/wakeup primitives — debugged under QEMU/GDB
-
-**Repo:** [Operating-Systems---BGU](https://github.com/AseelHerzallah1/Operating-Systems---BGU)
+**Stack:** Python · FastAPI · asyncio · HTTPX · PostgreSQL · SQLAlchemy · Alembic · Docker · pytest
 
 ---
 
-### 🔐 Memory Game RAT — Network Security Course Lab
+### 🤖 [Grounded — RAG Portfolio & Workspace](https://github.com/AseelHerzallah1/Aseels-workspace)
 
-Educational Remote Access Trojan disguised as a harmless **Pygame memory card game**.
+A conversational portfolio and private AI workspace built around **retrieval-augmented generation**.
 
-- Covert TCP C2 connection on port 9999 while the game runs in the foreground
-- XOR-encrypted command channel; remote shell execution via `subprocess`
-- Webcam snapshot capture (`cam snap`) with OpenCV
-- PyInstaller packaging + fake Instagram promotion simulating social-engineering distribution
+* RAG over verified profile documents
+* Local embeddings and cosine-similarity retrieval
+* Streaming LLM responses with retrieved sources
+* Recruiter and role-fit conversation modes
+* Google authentication and private workspace
+* Per-user document uploads for personal RAG
+* Separate Next.js frontend and FastAPI backend
 
-**Repo:** [memory-game-security-project](https://github.com/AseelHerzallah1/memory-game-security-project)
-
----
-
-### 🔦 SPL — System Programming Projects
-
-Three systems-focused projects in **Java** and **C++**:
-
-- **TFTP Server/Client:** Binary protocol over TCP, thread-per-client architecture, concurrent file upload/download with server-wide notifications
-- **Set Card Game:** Multithreaded game engine with thread-safe state management and synchronization primitives
-- **Warehouse Management System:** OOP design in C++ with strict Rule-of-5 memory management and zero leaks
+**Stack:** FastAPI · Next.js · React · Groq · FastEmbed · NumPy · Auth.js
 
 ---
 
-### 🤖 AI & Automation
+### 🎯 [MatchFlow](https://github.com/AseelHerzallah1/MatchFlow)
 
-- **[MatchFlow](https://github.com/AseelHerzallah1/MatchFlow)** — Personal job-search pipeline: RSS + Telegram intake, AI scoring vs CV, Notion CRM, cover letters at strong matches (n8n, FastAPI, OpenAI)
-- **[streamlit-genai-chatbot](https://github.com/AseelHerzallah1/streamlit-genai-chatbot)** — Browser chatbot with conversation memory (Streamlit, LangChain, Groq / Llama 3.3)
-- **[Camera-Pose-Estimation-Project](https://github.com/AseelHerzallah1/Camera-Pose-Estimation-Project)** — CNN trained on synthetic 3D-rendered data for camera orientation; 97% validation accuracy
+An AI-powered job-search automation pipeline that collects opportunities, evaluates them against my CV and GitHub profile, and acts on strong matches.
 
----
+* Job intake through **RSS and Telegram**
+* FastAPI service for job parsing and match scoring
+* Structured AI outputs using **OpenAI + Pydantic**
+* Automated workflows with **n8n**
+* Notion-based job tracking and CRM
+* Telegram alerts for high-scoring opportunities
+* Automatically generated cover letters for strong matches
+* Backend deployed on Render
 
-## 🧠 Technical Skills
-
-**Languages**
-- C, C++, Java
-- Python, JavaScript / TypeScript
-
-**Systems & Low-Level**
-- xv6 kernel — system calls, process management, scheduling, `fork`/`wait` extensions
-- Virtual memory — shared mappings, page tables, reference counting
-- Synchronization — Peterson locks, tournament tree, sleep/wakeup, race-condition debugging
-- Processes, threads, preemption, inter-process communication
-- Memory management — heap layout, allocators, Rule-of-5 / RAII (C++)
-- Client–server architecture, TCP sockets, binary protocols
-- Debugging: GDB, QEMU
-
-**Backend & Infrastructure**
-- Node.js, Express, MongoDB / Mongoose
-- REST APIs, JWT auth, bcrypt, middleware
-- TCP/IP, socket programming, client–server architecture
-- Cloudinary media upload, OpenAI API integration, LangChain, Groq
-- Production deploy: Vercel, Render
-- Java multithreading, thread-per-client server models
-
-**Tools**
-- Linux, Git, Make
-- QEMU / GDB
-- Vite, TanStack Query, Tailwind CSS
-- Postman, PyInstaller
+**Stack:** Python · FastAPI · OpenAI API · Pydantic · n8n · Notion API · Telegram API
 
 ---
 
-## 🎯 What I'm Looking For
+### 🧭 [PlaceUp Compass — Destination Prediction](https://github.com/AseelHerzallah1/PlaceUp-Compass-Quest3)
 
-My **first full-time junior role** building real software — ideally **full-stack web development** or **AI-powered applications**. I'm especially interested in teams shipping products with modern React/Node stacks, LLM integrations, and polished user experiences.
+A machine-learning data challenge built for **Place-IL**, predicting the first destination country a new travel-platform user is likely to book.
+
+* Data cleaning, EDA, missing-data handling, and leakage checks
+* Feature engineering and stratified train/test evaluation
+* Logistic Regression, Random Forest, and XGBoost benchmarking
+* Model tuning and two-stage prediction experiments
+* Evaluation using balanced accuracy, F1, Top-3 hit rate, and NDCG@3
+* Model explainability using **SHAP and permutation importance**
+
+**Stack:** Python · pandas · scikit-learn · XGBoost · SHAP · Jupyter
 
 ---
 
-## 🤝 Let's Connect
+### ⚙️ Systems Programming & Operating Systems
 
-- 📧 **Email:** herzalla001@gmail.com
-- 💼 **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/aseel-herzallah-290015319/)
-- 🌐 **Website:** [Portfolio]()
-- 🐙 **GitHub:** [AseelHerzallah1](https://github.com/AseelHerzallah1)
+Academic projects exploring lower-level software engineering, concurrency, networking, and operating-system concepts.
+
+#### [Operating Systems — xv6](https://github.com/AseelHerzallah1/Operating-Systems---BGU)
+
+* Custom system calls and process-management extensions
+* Shared-memory mappings and page-table manipulation
+* Reference counting and cross-process shared pages
+* Peterson locks and tournament-tree synchronization
+* Multi-process coordination and race-condition debugging
+
+#### [System Programming Projects](https://github.com/AseelHerzallah1/System-Programming-SPL-Projects-BGU)
+
+* Concurrent **TFTP server/client** over TCP
+* Multithreaded **Set Card Game** in Java
+* C++ warehouse management system with OOP and manual resource management
+
+**Topics:** C · C++ · Java · Concurrency · Multithreading · Networking · Operating Systems
+
+---
+
+## 💡 More Projects
+
+### 🐦 [Twitter Clone](https://github.com/AseelHerzallah1/twitter-clone)
+
+Full-stack social platform with authentication, feeds, messaging, notifications, media uploads, and an integrated OpenAI assistant.
+
+**Stack:** React · Node.js · Express · MongoDB · TanStack Query · OpenAI API
+
+🔗 [Live Demo](https://twitter-clone-mu-gilt.vercel.app)
+
+### 📷 [Camera Pose Estimation](https://github.com/AseelHerzallah1/Camera-Pose-Estimation-Project)
+
+CNN-based camera orientation estimation using synthetically generated 3D training data.
+
+**Stack:** Python · TensorFlow · Computer Vision
+
+---
+
+## 🛠️ Technical Skills
+
+**Languages:**
+Python · Java · C · C++ · JavaScript / TypeScript
+
+**Backend & AI:**
+FastAPI · Node.js · Express.js · REST APIs · HTTPX · SSE · LLM APIs · Embeddings · Semantic Caching
+
+**Databases:**
+PostgreSQL · SQLAlchemy · Alembic · MongoDB
+
+**Frontend:**
+React · Next.js
+
+**Tools & Systems:**
+Docker · Git · GitHub · Linux · Concurrency · Multithreading · Client–Server Architecture
+
+---
+
+## 🤝 Connect
+
+💼 [LinkedIn](https://www.linkedin.com/in/aseel-herzallah-290015319/)
+🌐 [Portfolio](https://aseel-portfolio-mauve.vercel.app/)
+🐙 [GitHub](https://github.com/AseelHerzallah1)
